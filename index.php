@@ -5,6 +5,6 @@
     <?php the_excerpt(); ?>
 </article>
 <?php endwhile; else: ?>
-<p><?php _e('No content found.', 'yektatheme'); ?></p>
+    <p><?php _e('محتوایی یافت نشد.', 'yektatheme'); ?></p>
 <?php endif; ?>
 <?php get_footer(); ?>
