@@ -6,6 +6,6 @@
     <?php the_excerpt(); ?>
 </article>
 <?php endwhile; else: ?>
-<p><?php _e('No courses found.', 'yektatheme'); ?></p>
+<p><?php _e('دوره‌ای یافت نشد.', 'yektatheme'); ?></p>
 <?php endif; ?>
 <?php get_footer(); ?>

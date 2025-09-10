@@ -1,28 +1,63 @@
 /*
-Theme Name: Yekta Academy
+Theme Name: آکادمی یکتا
 Theme URI: https://yektaacademy.com
-Author: Yekta R Kalantary
+Author: یکتا ر کلانتری
 Author URI: https://github.com/yekta-kalantary
-Description: Custom theme for Yekta Academy with Course and Lesson post types.
+Description: قالب سفارشی برای آکادمی یکتا همراه با پست تایپ‌های دوره و درس.
 Version: 1.0.0
-License: GPLv2 or later
+License: GPLv2 یا بالاتر
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: yalms
 GitHub Theme URI: https://github.com/yekta-kalantary/yalms
-Primary Branch: main
+شاخه اصلی: main
 Update URI: https://github.com/yekta-kalantary/yalms
 */
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-header, footer {
-    background: #f2f2f2;
+.site-header,
+.site-footer {
+    background-color: #343a40;
+    color: #fff;
     padding: 1rem;
 }
 
-main {
-    padding: 1rem;
+.site-header h1,
+.site-footer p {
+    margin: 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-main {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+article {
+    margin-bottom: 2rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
